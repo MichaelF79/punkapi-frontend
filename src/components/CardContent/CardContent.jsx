@@ -3,13 +3,10 @@ import styles from "./CardContent.module.scss";
 import BeerColour from "../BeerColour";
 import BeerBitterness from "../BeerBitterness";
 import BeerStrength from "../BeerStrength";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Anime from "react-anime";
 
 const CardContent = (props) => {
   const beerInfo = props.beerInfo;
-  const iconSize = "70x";
-  const beerColourPicker = props.beerColourPicker;
 
   return (
     <Anime
@@ -24,13 +21,13 @@ const CardContent = (props) => {
         <div className={styles.beerContent}>
           <div className={styles.beerDescription}>
             <h2>{beerInfo.tagline}</h2>
-            <p>First brewed: {beerInfo.first_brewed}</p>
+            <p>Brewed since: {beerInfo.first_brewed}</p>
             <p>{beerInfo.description}</p>
           </div>
           <div className={styles.beerFacts}>
             <ul>
               <BeerStrength strength={beerInfo.abv} />
-              <BeerColour colour={beerInfo.ebc} size={iconSize}/>
+              <BeerColour colour={beerInfo.ebc} />
               <BeerBitterness bitterness = {beerInfo.ibu} />
             </ul>
           </div>

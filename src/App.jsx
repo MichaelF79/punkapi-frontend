@@ -1,12 +1,10 @@
 import "./App.scss";
 import React from "react";
 import { useState, useEffect } from "react";
-import { library } from "@fortawesome/fontawesome-svg-core";
-import { faBeer, faLemon, faDizzy, faMeh, faSmile, faSmileBeam } from "@fortawesome/free-solid-svg-icons";
 import Sidebar from "../src/components/Sidebar";
 import CardList from "../src/components/CardList";
 import { fetchBeers } from "./services/punkapi.service";
-library.add(faBeer, faLemon, faDizzy, faMeh, faSmile, faSmileBeam);
+
 
 function App() {
   const [beers, setBeers] = useState([]);

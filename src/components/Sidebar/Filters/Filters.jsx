@@ -35,7 +35,7 @@ const Filters = (props) => {
           <input type="radio" name="sorting" value="ibu-ascending" />
         </div>
         <div className={styles.radioAndTag}>
-          <label for="abv-descending">Extreme</label>
+          <label for="abv-descending">Very Bitter</label>
           <input type="radio" name="sorting" value="ibu-descending" />
         </div>
       </div>

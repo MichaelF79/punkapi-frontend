@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Filters from "./Filters";
 import styles from "./Sidebar.module.scss";
-import logo from "../../assets/img/brewdog-logo.png";
+import logo from "../../assets/img/images.png";
 
 const Sidebar = (props) => {
   const [searchText, setSearchText] = useState("");
@@ -9,7 +9,7 @@ const Sidebar = (props) => {
   return (
     <div className={styles.bar}>
       <div className={styles.sidebarContent}>
-        <img src={logo} />
+      <img src={logo} />
 
         <input
           onChange={(e) => {
