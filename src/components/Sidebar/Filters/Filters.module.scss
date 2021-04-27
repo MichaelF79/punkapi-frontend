@@ -1,0 +1,17 @@
+.filters {
+  align-content: center;
+}
+.filterRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.radioAndTag {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h3,h4 {
+  text-align: center;
+}
+

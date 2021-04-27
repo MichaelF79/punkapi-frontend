@@ -1,12 +1,16 @@
-import React from "react";
-import styles from "./CardList.module.scss";
+import React from 'react'
+import Card from '../Card'
+import styles from './CardList.module.scss'
 
-const CardList = () => {
+const CardList = (props) => {
+  const { beerList } = props;
   return (
-    <>
-      <p>CardList works</p>
-    </>
-  );
-};
+    <div className = {styles.cardList}>
+      {beerList.map(beer => {
+        return <Card data={beer} key={beer.name}/>
+      })}
+    </div>
+  )
+}
 
-export default CardList;
+export default CardList 
