@@ -7,8 +7,8 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  
 }
+
 .topBar{
   background-color: #fff8f8;
   border-top: 1px solid rgb(121, 121, 121);
@@ -31,4 +31,8 @@
   *{
     display: none;
   }
+}
+
+.panelOpener {
+  height: 250px;
 }
