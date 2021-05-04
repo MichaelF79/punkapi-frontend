@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/punkapi-frontend/static/css/main.d36b600f.chunk.css",
+    "main.js": "/punkapi-frontend/static/js/main.3c44b70f.chunk.js",
+    "main.js.map": "/punkapi-frontend/static/js/main.3c44b70f.chunk.js.map",
+    "runtime-main.js": "/punkapi-frontend/static/js/runtime-main.7268cfbf.js",
+    "runtime-main.js.map": "/punkapi-frontend/static/js/runtime-main.7268cfbf.js.map",
+    "static/js/2.f9eeadbe.chunk.js": "/punkapi-frontend/static/js/2.f9eeadbe.chunk.js",
+    "static/js/2.f9eeadbe.chunk.js.map": "/punkapi-frontend/static/js/2.f9eeadbe.chunk.js.map",
+    "static/js/3.c178cfc7.chunk.js": "/punkapi-frontend/static/js/3.c178cfc7.chunk.js",
+    "static/js/3.c178cfc7.chunk.js.map": "/punkapi-frontend/static/js/3.c178cfc7.chunk.js.map",
+    "index.html": "/punkapi-frontend/index.html",
+    "static/css/main.d36b600f.chunk.css.map": "/punkapi-frontend/static/css/main.d36b600f.chunk.css.map",
+    "static/js/2.f9eeadbe.chunk.js.LICENSE.txt": "/punkapi-frontend/static/js/2.f9eeadbe.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7268cfbf.js",
+    "static/js/2.f9eeadbe.chunk.js",
+    "static/css/main.d36b600f.chunk.css",
+    "static/js/main.3c44b70f.chunk.js"
+  ]
+}
