@@ -1,5 +1,4 @@
 import React from "react";
-import styles from "./BeerColour.module.scss";
 
 const BeerColour = (props) => {
   const colour = props.colour;

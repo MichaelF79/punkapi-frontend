@@ -9,7 +9,7 @@ const Sidebar = (props) => {
   return (
     <div className={styles.bar}>
       <div className={styles.sidebarContent}>
-      <img src={logo} />
+      <img src={logo} alt="Brewdog logo" />
 
         <input
           onChange={(e) => {
